@@ -1,0 +1,197 @@
+body {
+  background-color: beige;
+}
+
+header {
+  background-color: darkblue;
+  color: white;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  font-family: cambria;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  font-family: lucida sans;
+}
+
+header nav ul a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header h1 {
+    margin: 14px 0;
+    padding-top: 0;
+  }
+
+  header nav {
+    margin-top: 8px;
+  }
+
+  header nav ul li a:hover {
+    color: green;
+  }
+}
+
+section {
+  margin-bottom: 80px;
+  margin-top: 60px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+h2, h4 {
+  text-align: center;
+  font-family: cambria;
+}
+h1 {
+  font-family: cambria;
+}
+
+/*Introduction Section Styles*/
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+
+}
+.picture {
+  flex: 1;
+}
+.introText {
+  flex: 1;
+  margin-left: 20px;
+  font-family: 'Lucida Sans';
+}
+img {
+  width: 100%;
+  border-radius: 50px;
+  
+  
+}
+
+/*About Me Section Styles*/
+
+.about {
+  border-radius: 10px;
+  color: antiquewhite;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about p {
+  font-family: lucida sans;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.aboutSection {
+  background-color: darkblue;
+}
+
+/*Portfolio Section Styles*/
+
+.Portfolio {
+  display: flex;
+  flex-direction: row;
+  background-color:darkblue;
+  border-radius: 10px;
+}
+
+.PortfolioItem {
+  flex: 1;
+  margin: 10px;
+  background-color: lightgrey;
+  border-radius: 20px;
+  
+}
+
+.PortfolioItem p {
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+
+/*Contact Section Styles*/
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactForm {
+  flex: 1;
+  
+}
+
+form label {
+  display: block;
+}
+
+form input[type=text] {
+  width: 100%;
+}
+
+form textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.ContactLinks {
+  flex: 1;
+  display: flex;
+
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: darkblue;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.links li a{
+  color: lightgray;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+  font-family: lucida sans;
+
+}
+
+.links li {
+  color: lightgray;
+  font-family: lucida sans;
+}
+
+footer {
+  background-color: darkblue;
+  color: antiquewhite;
+}
+
