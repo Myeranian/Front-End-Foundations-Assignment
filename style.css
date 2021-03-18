@@ -56,6 +56,22 @@ header nav ul li:last-child a {
   header nav ul li a:hover {
     color: green;
   }
+
+  .Contact {
+  display: flex; 
+  flex-direction: column; 
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: darkblue;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 }
 
 section {
@@ -118,7 +134,7 @@ img {
 
 .Portfolio {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color:darkblue;
   border-radius: 10px;
 }
@@ -138,10 +154,15 @@ img {
 
 /*Contact Section Styles*/
 
-.Contact {
+/* .Contact {
+  display: flex; 
+  flex-direction: column; 
+} */
+
+/* .ContactLinks {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .ContactForm {
   flex: 1;
@@ -161,15 +182,9 @@ form textarea {
   height: 100px;
 }
 
-.ContactLinks {
-  flex: 1;
-  display: flex;
-
-}
-
 .links {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   list-style: none;
   background-color: darkblue;
   border-radius: 10px;
@@ -177,17 +192,16 @@ form textarea {
   padding-bottom: 10px;
 }
 
-.links li a{
-  color: lightgray;
-  text-decoration: none;
-  margin: 0 20px 0 0;
-  font-family: lucida sans;
-
-}
-
 .links li {
   color: lightgray;
+  margin: 0 30px 0 0;
   font-family: lucida sans;
+}
+
+.links li a{
+  color: lightgray;
+  font-family: lucida sans;
+  text-decoration: none;
 }
 
 footer {
